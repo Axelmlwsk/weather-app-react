@@ -1,0 +1,42 @@
+.card {
+  width: 300px;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--transparent-black);
+  color: white;
+  margin: 20px;
+}
+
+.infoCard {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  align-items: center;
+}
+
+.infoCard p {
+  margin: 0;
+}
+
+.city {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.temp {
+}
+
+.deleteButton {
+  width: min-content;
+  height: min-content;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
